@@ -25,6 +25,18 @@
     .prose {
         max-width: 120ch !important;
     }
+
+    .workshop-proceedings-logos img {
+        display: block;
+        width: 320px;
+        max-width: 100%;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 0.5rem;
+        background-color: #fff;
+        border-radius: 0.5rem;
+    }
 }
 
 

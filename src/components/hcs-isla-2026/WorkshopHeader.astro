@@ -1,0 +1,81 @@
+---
+import logo from "../../assets/visionxairy-icon.svg?raw";
+import ThemeToggler from "../ThemeToggler.astro";
+
+const currentPath = Astro.url.pathname;
+
+const menuItems = [
+  { name: "Home", path: "/workshops/hcs-ilsa-2026", exact: true },
+  { name: "Call For Papers", path: "/workshops/hcs-ilsa-2026/call-for-papers" },
+  { name: "Committee", path: "/workshops/hcs-ilsa-2026/committee" },
+  { name: "Important Dates", path: "/workshops/hcs-ilsa-2026/important-dates" },
+  { name: "Submission", path: "/workshops/hcs-ilsa-2026/submission" },
+  { name: "Contact", path: "/workshops/hcs-ilsa-2026/contact" },
+];
+
+const isActive = (path: string, exact = false) => {
+  if (exact) {
+    return currentPath === path || currentPath === path + "/";
+  }
+  return currentPath.startsWith(path);
+};
+---
+
+<div class="navbar bg-base-100 shadow-sm">
+  <div class="navbar-start">
+    <div class="dropdown">
+      <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          class="h-5 w-5"
+          fill="none"
+          viewBox="0 0 24 24"
+          stroke="currentColor"
+        >
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+            d="M4 6h16M4 12h8m-8 6h16"></path>
+        </svg>
+      </div>
+      <ul
+        tabindex="-1"
+        class="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow"
+      >
+        {menuItems.map((item) => (
+          <li>
+            <a href={item.path} class={isActive(item.path, item.exact) ? "active" : undefined}
+              >{item.name}</a
+            >
+          </li>
+        ))}
+      </ul>
+    </div>
+    <div class="flex items-center gap-2 px-2 py-2">
+      <a class="block shrink-0 text-base-content w-6 h-6 [&>svg]:w-full [&>svg]:h-full [&>svg]:fill-current" href="/" aria-label="VisionXAiRy home" set:html={logo} />
+      <div class="flex flex-col items-start leading-tight">
+        <a class="text-xl font-semibold hover:underline" href="/workshops/hcs-ilsa-2026">HCS-ILSA 2026</a>
+        <a class="text-[0.65rem] uppercase tracking-[0.18em] text-base-content/70 hover:underline" href="/">
+          Organized by VisionXAiRy
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <div class="navbar-center hidden lg:flex">
+    <ul class="menu menu-horizontal px-1">
+      {menuItems.map((item) => (
+        <li>
+          <a href={item.path} class={isActive(item.path, item.exact) ? "active" : undefined}
+            >{item.name}</a
+          >
+        </li>
+      ))}
+    </ul>
+  </div>
+
+  <div class="navbar-end">
+    <ThemeToggler />
+  </div>
+</div>

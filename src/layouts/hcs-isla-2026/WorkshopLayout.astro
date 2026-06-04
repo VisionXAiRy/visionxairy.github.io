@@ -1,0 +1,17 @@
+---
+import Layout from "../Layout.astro";
+import Footer from "../../components/Footer.astro";
+import WorkshopHeader from "../../components/hcs-isla-2026/WorkshopHeader.astro";
+
+const { frontmatter } = Astro.props;
+---
+
+<Layout>
+  <WorkshopHeader />
+
+  <main class="flex-1 container mx-auto px-4 prose lg:prose-xl pb-12">
+    <slot />
+  </main>
+
+  <Footer />
+</Layout>
