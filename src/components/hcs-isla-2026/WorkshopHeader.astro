@@ -21,10 +21,10 @@ const isActive = (path: string, exact = false) => {
 };
 ---
 
-<div class="navbar bg-base-100 shadow-sm">
-  <div class="navbar-start">
-    <div class="dropdown">
-      <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+<div class="navbar bg-base-100 shadow-sm gap-2">
+  <div class="navbar-start min-w-0 gap-1">
+    <div class="dropdown shrink-0">
+      <div tabindex="0" role="button" class="btn btn-ghost xl:hidden">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           class="h-5 w-5"
@@ -52,18 +52,18 @@ const isActive = (path: string, exact = false) => {
         ))}
       </ul>
     </div>
-    <div class="flex items-center gap-2 px-2 py-2">
+    <div class="flex min-w-0 items-center gap-2 px-1 py-2 sm:px-2">
       <a class="block shrink-0 text-base-content w-6 h-6 [&>svg]:w-full [&>svg]:h-full [&>svg]:fill-current" href="/" aria-label="VisionXAiRy home" set:html={logo} />
-      <div class="flex flex-col items-start leading-tight">
-        <a class="text-xl font-semibold hover:underline" href="/workshops/hcs-ilsa-2026">HCS-ILSA 2026</a>
-        <a class="text-[0.65rem] uppercase tracking-[0.18em] text-base-content/70 hover:underline" href="/">
-          Organized by VisionXAiRy
+      <div class="flex min-w-0 items-center gap-2 leading-tight sm:flex-col sm:items-start sm:gap-0">
+        <a class="text-base font-semibold hover:underline sm:text-xl whitespace-nowrap" href="/workshops/hcs-ilsa-2026">HCS-ILSA 2026</a>
+        <a class="text-[0.5rem] uppercase tracking-[0.1em] text-base-content/70 hover:underline sm:text-[0.65rem] sm:tracking-[0.18em] whitespace-nowrap" href="/">
+          by VisionXAiRy
         </a>
       </div>
     </div>
   </div>
 
-  <div class="navbar-center hidden lg:flex">
+  <div class="navbar-center hidden xl:flex">
     <ul class="menu menu-horizontal px-1">
       {menuItems.map((item) => (
         <li>
@@ -75,7 +75,7 @@ const isActive = (path: string, exact = false) => {
     </ul>
   </div>
 
-  <div class="navbar-end">
+  <div class="navbar-end shrink-0">
     <ThemeToggler />
   </div>
 </div>
