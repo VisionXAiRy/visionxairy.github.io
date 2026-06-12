@@ -1,5 +1,5 @@
 ---
-layout: ../../../layouts/hcs-isla-2026/WorkshopLayout.astro
+layout: ../../../layouts/ihcus-ai-2026/WorkshopLayout.astro
 title: Important Dates
 ---
 

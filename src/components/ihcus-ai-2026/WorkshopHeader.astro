@@ -5,12 +5,12 @@ import ThemeToggler from "../ThemeToggler.astro";
 const currentPath = Astro.url.pathname;
 
 const menuItems = [
-  { name: "Home", path: "/workshops/hcs-ilsa-2026", exact: true },
-  { name: "Call For Papers", path: "/workshops/hcs-ilsa-2026/call-for-papers" },
-  { name: "Committee", path: "/workshops/hcs-ilsa-2026/committee" },
-  { name: "Important Dates", path: "/workshops/hcs-ilsa-2026/important-dates" },
-  { name: "Submission", path: "/workshops/hcs-ilsa-2026/submission" },
-  { name: "Contact", path: "/workshops/hcs-ilsa-2026/contact" },
+  { name: "Home", path: "/workshops/ihcus-ai-2026", exact: true },
+  { name: "Call For Papers", path: "/workshops/ihcus-ai-2026/call-for-papers" },
+  { name: "Committee", path: "/workshops/ihcus-ai-2026/committee" },
+  { name: "Important Dates", path: "/workshops/ihcus-ai-2026/important-dates" },
+  { name: "Submission", path: "/workshops/ihcus-ai-2026/submission" },
+  { name: "Contact", path: "/workshops/ihcus-ai-2026/contact" },
 ];
 
 const isActive = (path: string, exact = false) => {
@@ -55,7 +55,7 @@ const isActive = (path: string, exact = false) => {
     <div class="flex min-w-0 items-center gap-2 px-1 py-2 sm:px-2">
       <a class="block shrink-0 text-base-content w-6 h-6 [&>svg]:w-full [&>svg]:h-full [&>svg]:fill-current" href="/" aria-label="VisionXAiRy home" set:html={logo} />
       <div class="flex min-w-0 items-center gap-2 leading-tight sm:flex-col sm:items-start sm:gap-0">
-        <a class="text-base font-semibold hover:underline sm:text-xl whitespace-nowrap" href="/workshops/hcs-ilsa-2026">HCS-ILSA 2026</a>
+        <a class="text-base font-semibold hover:underline sm:text-xl whitespace-nowrap" href="/workshops/ihcus-ai-2026">IHCUS-AI 2026</a>
         <a class="text-[0.5rem] uppercase tracking-[0.1em] text-base-content/70 hover:underline sm:text-[0.65rem] sm:tracking-[0.18em] whitespace-nowrap" href="/">
           by VisionXAiRy
         </a>
