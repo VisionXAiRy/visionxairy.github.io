@@ -31,4 +31,4 @@ All papers will be reviewed by at least two Program Committee members on the bas
 
 Authors are requested to submit their papers electronically using the online conference management system in PDF format before the deadline.
 
-**[Link to Submission System to be defined]**
+**[Submit via EasyChair](https://easychair.org/my/conference?conf=ihcusai2026)**
