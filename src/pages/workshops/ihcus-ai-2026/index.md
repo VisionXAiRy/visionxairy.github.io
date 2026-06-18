@@ -8,10 +8,9 @@ title: Home
 
 Held in conjunction with the 17th International Conference on Emerging Ubiquitous Systems and Pervasive Networks (EUSPN 2026)
 
-Almaty, Kazakhstan | October 28–30, 2026
-
-Workshop website: [https://visionxairy.github.io/workshops/ihcus-ai-2026/](https://visionxairy.github.io/workshops/ihcus-ai-2026/)
-Submission system: [https://easychair.org/my/conference?conf=ihcusai2026](https://easychair.org/my/conference?conf=ihcusai2026)
+**Location**: Almaty, Kazakhstan
+**Date**: October 28–30, 2026
+**Submission system**: [https://easychair.org/my/conference?conf=ihcusai2026](https://easychair.org/my/conference?conf=ihcusai2026)
 
 ---
 
