@@ -7,7 +7,9 @@ title: Important Dates
 
 | Milestone | Date |
 | :--- | :--- |
-| **Paper Submission Deadline:** | [To be defined] |
-| **Acceptance Notification:** | [To be defined] |
-| **Camera-Ready Submission:** | [To be defined] |
-| **Workshop Dates:** | [To be defined] |
+| **Paper submission deadline:** | July 15, 2026 |
+| **Author notification:** | August 21, 2026 |
+| **Final manuscript / camera-ready submission:** | September 18, 2026 |
+| **Workshop date:** | October 28–30, 2026 |
+
+All deadlines are AoE (Anywhere on Earth) unless otherwise specified.

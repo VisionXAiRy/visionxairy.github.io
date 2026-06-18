@@ -5,14 +5,21 @@ title: Committee
 
 # Committee
 
-## Organizing Committee
+## Workshop Chairs
 
-* **Pedro Albuquerque Santos** : Setúbal School of Technology, Polytechnic Institute of Setúbal + NOVA Laboratory for Computer Science and Informatics, Portugal
-* **Rui Neves Madeira** : Setúbal School of Technology, Polytechnic Institute of Setúbal + NOVA Laboratory for Computer Science and Informatics, Portugal
-* **Rui Pedro Porfírio** : Setúbal School of Technology, Polytechnic Institute of Setúbal + NOVA Laboratory for Computer Science and Informatics, Portugal
+* **Rui Neves Madeira**, Polytechnic University of Setúbal & NOVA LINCS-NOVA University of Lisbon, Portugal
+* **Pedro Albuquerque Santos**, Polytechnic University of Setúbal & NOVA LINCS-NOVA University of Lisbon, Portugal
+* **Rui Pedro Porfírio**, Polytechnic University of Setúbal & NOVA LINCS-NOVA University of Lisbon, Portugal
 
-## Technical Program Committee (TPC) Members
+## Technical Program Committee
 
-* **Pedro Albuquerque Santos** : Setúbal School of Technology, Polytechnic Institute of Setúbal + NOVA Laboratory for Computer Science and Informatics, Portugal
-* **Rui Neves Madeira** : Setúbal School of Technology, Polytechnic Institute of Setúbal + NOVA Laboratory for Computer Science and Informatics, Portugal
-* **Rui Pedro Porfírio** : Setúbal School of Technology, Polytechnic Institute of Setúbal + NOVA Laboratory for Computer Science and Informatics, Portugal
+* **Patricia Macedo**, Polytechnic University of Setúbal & NOVA LINCS-NOVA University of Lisbon, Portugal
+* **Paula Miranda**, Polytechnic University of Setúbal, Portugal
+* **Octavian Postolache**, Instituto de Telecomunicações IT-IUL ISCTE-Instituto Universitário de Lisboa, Lisboa, Portugal
+* **André Antunes**, Polytechnic University of Setúbal & NOVA LINCS-NOVA University of Lisbon, Portugal
+* **Rui Nóbrega**, NOVA LINCS-NOVA University of Lisbon, Portugal
+* **Rui Neves Madeira**, Polytechnic University of Setúbal & NOVA LINCS-NOVA University of Lisbon, Portugal
+* **Pedro Albuquerque Santos**, Polytechnic University of Setúbal & NOVA LINCS-NOVA University of Lisbon, Portugal
+* **Rui Pedro Porfírio**, Polytechnic University of Setúbal & NOVA LINCS-NOVA University of Lisbon, Portugal
+
+*To be extended.*

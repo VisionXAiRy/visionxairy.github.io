@@ -7,19 +7,13 @@ title: Submission
 
 ## Proceedings
 
-
 IHCUS-AI 2026 accepted papers will be published by Elsevier Science in the open-access [Procedia Computer Science](https://www.sciencedirect.com/journal/procedia-computer-science) series on-line. [Procedia Computer Science](https://www.sciencedirect.com/journal/procedia-computer-science) is hosted by [Elsevier](https://www.elsevier.com) and on the Elsevier content platform [ScienceDirect](https://www.sciencedirect.com), and will be freely available worldwide. 
 
 All papers in Procedia will be indexed by [Scopus](https://www.scopus.com) and by [Clarivate's Conference Proceedings Citation Index](https://clarivate.com/products/scientific-and-academic-research/research-discovery-and-workflow-solutions/web-of-science/web-of-science-core-collection/). All papers in Procedia will also be indexed by [Engineering Village (Ei)](https://www.engineeringvillage.com), including [EI Compendex](https://www.elsevier.com/solutions/engineering-village/content/compendex). Moreover, all accepted papers will be indexed in [DBLP](https://dblp.org/). The papers will contain linked references, XML versions, and citable DOI numbers.
 
-<div class="workshop-proceedings-logos">
-
 [![Elsevier Logo](../../../assets/workshops/elsevier-logo.svg)](https://www.elsevier.com)
 [![Scopus Logo](../../../assets/workshops/scopus-logo.svg)](https://www.scopus.com)
 [![DBLP Logo](../../../assets/workshops/dblp-logo.png)](https://dblp.org)
-
-</div>
-
 
 ## Submission Guidelines
 
