@@ -1,5 +1,5 @@
 ---
-layout: ../../layouts/ihcus-ai-2026/WorkshopLayout.astro
+layout: ../../layouts/PageLayout.astro
 title: Workshops
 ---
 
